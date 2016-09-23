@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Anime Profile Material Design",
+  "author": "FoxInFlame",
+  "description": "A Material Design inspired profile page for Anime. Static, and not dynamic.",
+  "version": "0.2",
+  "icons": {
+    "128": "128.png"
+  },
+  "offline_enabled": true,
+  "app": {
+    "background": {
+      "scripts": [
+        "libraries/jQuery/jquery-2.2.3.min.js",
+        "background.js"
+      ]
+    }
+  },
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "notifications",
+    "alwaysOnTopWindows"
+  ]
+}
